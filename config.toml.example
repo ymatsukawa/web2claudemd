@@ -1,0 +1,22 @@
+[meta_info]
+  description = "web fetcher and convert to markdown"
+
+[input]
+  [target]
+    url = "https://www.anthropic.com/engineering/claude-code-best-practices"
+    ## or point multiple by file.
+    # url = "./tests/target-url.txt"
+  [why]
+    because = "I want to structure as markadown about the website"
+
+[output]
+  [target]
+    path = "./out/RESULT_{title}.md"
+    translation_file_suffix = "{original_filename}_{translation_locale}.md"
+  [original]
+    charset = "utf-8"
+    locale = "en"
+  [translation]
+    enabled = false
+    charset = "utf-8"
+    locale = "ja"

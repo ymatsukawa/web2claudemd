@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__fetch__fetch",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_close",
+      "mcp__playwright__browser_snapshot",
+      "mcp__playwright__browser_wait_for",
+      "Bash(mkdir:*)",
+      "Bash(echo:*)",
+      "Bash(cat:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "fetch",
+    "playwright",
+    "memory"
+  ]
+}

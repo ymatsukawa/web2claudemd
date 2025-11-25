@@ -1,0 +1,12 @@
+config.toml
+
+# playwright
+.playwright-mcp
+
+# output
+/out/*
+!/out/.keep
+
+# tmp
+/tmp/*
+!/tmp/.keep
