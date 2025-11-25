@@ -6,8 +6,8 @@ Web page goes to .md claude code readable.
 
 ## Manual
 
-* Edit [toml](./config.toml.example)
-* Run claude code and prompt: ex) `run workflow of CLAUDE.md`
+* Edit [toml](./config.toml.example) and `cp config.toml.example config.toml`
+* Run claude code and input prompt: `run workflow of CLAUDE.md`
 * Wait and watch `./out/RESULT_*.md`
 
 ## System requirements
